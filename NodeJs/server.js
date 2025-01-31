@@ -12,7 +12,7 @@ const port = 3000;
 
 // Firebase Configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDJDE3Vc2oiDEjDtXC4Huxe978u4BhIV9A",
+  apiKey: "AIzaSyDJDE3Vc2oiDEjDtXC4Huxe978u4BhIV9A",
   authDomain: "fluxshare-6c913.firebaseapp.com",
   projectId: "fluxshare-6c913",
   storageBucket: "fluxshare-6c913.firebasestorage.app",
