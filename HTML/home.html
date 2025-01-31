@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FluxShare</title>
+  <link rel="stylesheet" href="../CSS/home.css">
+</head>
+<body>
+  <div class="container">
+  
+    <header>
+      <h1>FluxShare
+      <button class="logout-btn">Log Out</button>
+    </header>
+
+
+    <main>
+      <div class="actions">
+        <input type="text" id="folderName" placeholder="Enter folder name" class="input-field">
+        <button class="action-btn">Create Folder</button>
+        <button class="back-btn" id="backButton">Return</button>
+      </div>
+
+      <div class="label">
+        <h1 class="text">Folders</h1>
+      </div>
+      <input type="hidden" id="currentParentId" value="0">
+      <div class="folders-background">
+        <div id="folders"></div>
+        <div id="files"></div>
+      </div>
+      
+      <div class="file-area"></div>
+    </main>
+
+
+    <footer>
+      <div class="floating-file-btn"></div>
+      <h3 class="text">Uplod your files here!</h3>
+        <input type="file" id="fileUpload" multiple>
+        <label class="upload-btn" for="fileUpload">Upload</label>
+        <!-- <button class="upload-btn" onclick="uploadFile()">Upload</button> -->
+      </div>
+    </footer>
+  </div>
+
+  <script type="module" src="/JS/home.js"></script>
+</body>
+</html>
